@@ -1,6 +1,6 @@
 # Generalizzazione GNR: da grafi ad ipergrafi
-Questo progetto si concentra sulla costruzione di ipergrafi a partire da dati di espressione genica. L'obiettivo principale è riuscire ad effettuare inferenza delle GNR usando come struttura gli ipergrafi in modo tale da estrarre informazioni più complesse sulle interazioni biologiche rispetto ad usare i grafi.
-Abbiamo definito una regola di estrazione degli iperarchi da cui poi si costruiscono gli ipergrafi: per ogni coppia di geni si calcola il coefficiente di correlazione di Pearson, se il valore assoluto supera una certa soglia "t" allora la coppia viene aggiunta allo stesso iperarco. Ogni iperarco dunque è un sottoinsieme di geni altamente correlati rispetto ad una soglia "t".
+Questo progetto si concentra sulla costruzione di ipergrafi a partire da dati di espressione genica. L'obiettivo principale è riuscire ad effettuare inferenza delle GNR usando come struttura gli **ipergrafi** in modo tale da estrarre informazioni più complesse sulle interazioni biologiche rispetto ad usare i grafi.
+Abbiamo definito una regola di estrazione degli iperarchi da cui poi si costruiscono gli ipergrafi: _per ogni coppia di geni si calcola il coefficiente di correlazione di Pearson, se il valore assoluto supera una certa soglia "t" allora la coppia viene aggiunta allo stesso iperarco._ Ogni iperarco dunque è un **sottoinsieme di geni altamente correlati** rispetto ad una soglia _t_.
 
 ## Requisiti
 Il codice fa uso delle seguenti librerie:
